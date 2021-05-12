@@ -1,0 +1,16 @@
+com/indracompany/qa/parametros/Propiedad.java
+ com.indracompany.qa.parametros.Propiedad
+com/indracompany/qa/runners/DistribucionRunner.java
+ com.indracompany.qa.runners.DistribucionRunner
+com/indracompany/qa/parametros/Constante.java
+ com.indracompany.qa.parametros.Constante
+com/indracompany/qa/parametros/Categoria.java
+ com.indracompany.qa.parametros.Categoria
+com/indracompany/qa/paginas/Index.java
+ com.indracompany.qa.paginas.Index
+com/indracompany/qa/steps/DistribucionWebSteps.java
+ com.indracompany.qa.steps.DistribucionWebSteps
+com/indracompany/qa/Accion/AccionesIndex.java
+ com.indracompany.qa.Accion.AccionesIndex
+com/indracompany/qa/parametros/Opcion.java
+ com.indracompany.qa.parametros.Opcion

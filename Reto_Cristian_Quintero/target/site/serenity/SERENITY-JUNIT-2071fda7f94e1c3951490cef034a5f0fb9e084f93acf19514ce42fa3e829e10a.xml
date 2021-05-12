@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name=": Distribución de web Advantage" skipped="0" tests="3" time="40.23" timestamp="2021-05-10 03:50:33"><testcase name="Validar Categorias"><failure message="Las categorias no son iguales a las esperadas" type="java.lang.AssertionError">Las categorias no son iguales a las esperadas</failure><system-err>Las categorias no son iguales a las esperadas&#13;
+com.indracompany.qa.Accion.AccionesIndex.verificaExistenciaBloquesCategoria(AccionesIndex.java:31)&#13;
+com.indracompany.qa.steps.DistribucionWebSteps.validoQueSeEncuentrenLosProductosPorCategoria(DistribucionWebSteps.java:25)&#13;
+✽.Valido que se encuentren los productos por categoria(src/test/resources/features/HU_DistribucionWebAdvantage.feature:9)&#13;
+</system-err></testcase><testcase name="Validar Banner de publicidad"/><testcase name="Validar opciones del menú"><error message="Timed out after 20 seconds. List elements not visible&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 20 seconds. List elements not visible
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: unknown</error><system-err>Timed out after 20 seconds. List elements not visible
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: unknown&#13;
+com.indracompany.qa.Accion.AccionesIndex.verificaExistenciaDeOpciones(AccionesIndex.java:44)&#13;
+com.indracompany.qa.steps.DistribucionWebSteps.validoLasOpcionesDelMenÃº(DistribucionWebSteps.java:35)&#13;
+✽.valido las opciones del menu(src/test/resources/features/HU_DistribucionWebAdvantage.feature:17)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+": Distribución de web Advantage","Validar Categorias","FAILURE","2021-05-10T15:50:33.8641167-05:00[America/Bogota]","0.0","9.92"
+": Distribución de web Advantage","Validar Banner de publicidad","SUCCESS","2021-05-10T15:50:45.438037-05:00[America/Bogota]","0.0","5.43"
+": Distribución de web Advantage","Validar opciones del menú","ERROR","2021-05-10T15:50:52.2233804-05:00[America/Bogota]","0.0","24.88"

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=": Distribución de web Advantage" tests="3" skipped="0" failures="2" errors="0" timestamp="2021-05-10T20:50:34" hostname="22LAP5CG0434XSP" time="44.36">
+  <properties/>
+  <testcase name="Validar Categorias" classname=": Distribución de web Advantage" time="11.397">
+    <failure message="java.lang.AssertionError: Las categorias no son iguales a las esperadas" type="java.lang.AssertionError">java.lang.AssertionError: Las categorias no son iguales a las esperadas
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.indracompany.qa.Accion.AccionesIndex.verificaExistenciaBloquesCategoria(AccionesIndex.java:31)
+	at com.indracompany.qa.steps.DistribucionWebSteps.validoQueSeEncuentrenLosProductosPorCategoria(DistribucionWebSteps.java:25)
+	at ✽.Valido que se encuentren los productos por categoria(src/test/resources/features/HU_DistribucionWebAdvantage.feature:9)
+</failure>
+  </testcase>
+  <testcase name="Validar Banner de publicidad" classname=": Distribución de web Advantage" time="6.765"/>
+  <testcase name="Validar opciones del menú" classname=": Distribución de web Advantage" time="26.153">
+    <failure message="org.openqa.selenium.NoSuchElementException: Timed out after 20 seconds. List elements not visible&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Timed out after 20 seconds. List elements not visible
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0434XSP', ip: '192.168.20.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElements(SmartAjaxElementLocator.java:195)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at com.sun.proxy.$Proxy28.size(Unknown Source)
+	at com.indracompany.qa.Accion.AccionesIndex.verificaExistenciaDeOpciones(AccionesIndex.java:44)
+	at com.indracompany.qa.steps.DistribucionWebSteps.validoLasOpcionesDelMenÃº(DistribucionWebSteps.java:35)
+	at ✽.valido las opciones del menu(src/test/resources/features/HU_DistribucionWebAdvantage.feature:17)
+</failure>
+  </testcase>
+  <system-out><![CDATA[15:50:34.955 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:50:34.956 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+15:50:40.195 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+15:50:40.198 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+15:50:40.354 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\8f4bb5cf36773e49c8b372d1a326504d8b14d3967a76ab3918db1c07ae4410e1.png
+15:50:40.358 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15708280420353060333
+15:50:40.359 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\8f4bb5cf36773e49c8b372d1a326504d8b14d3967a76ab3918db1c07ae4410e1.png
+15:50:43.672 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\3d2034e5ef3cf75c00b8bdf5afa066138ec770e5e0a149f94d4820fe9e7d1d75.png
+15:50:43.676 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6173984954767237477
+15:50:43.677 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\3d2034e5ef3cf75c00b8bdf5afa066138ec770e5e0a149f94d4820fe9e7d1d75.png
+15:50:45.313 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Validar Categorias
+--------------------------------------------------------------------------
+15:50:45.318 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+15:50:45.417 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Y Valido que se encuentren los productos por categoria
+15:50:45.417 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Las categorias no son iguales a las esperadas
+15:50:45.821 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:50:45.821 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+15:50:49.897 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\8f4bb5cf36773e49c8b372d1a326504d8b14d3967a76ab3918db1c07ae4410e1.png
+15:50:50.869 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\38d0a88afbac4e6c5f4b7189a91f97034118eb035ae32e2bddf92d7599899eea.png
+15:50:50.872 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5589885845905779118
+15:50:50.872 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\38d0a88afbac4e6c5f4b7189a91f97034118eb035ae32e2bddf92d7599899eea.png
+15:50:52.213 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar Banner de publicidad
+----------------------------------------------------------------------------
+15:50:52.517 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:50:52.517 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+15:50:56.687 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\8f4bb5cf36773e49c8b372d1a326504d8b14d3967a76ab3918db1c07ae4410e1.png
+15:51:17.058 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\a68f2d0b182e5791dbe8d4cc93c722eb33879e19e2e76dfd215427c692b0e3f2.png
+15:51:17.061 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9706367938355682483
+15:51:17.061 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Capacitaciones Automatizacion\Reto_Cristian_Quintero\target\site\serenity\a68f2d0b182e5791dbe8d4cc93c722eb33879e19e2e76dfd215427c692b0e3f2.png
+15:51:18.384 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Validar opciones del menú
+---------------------------------------------------------------------
+15:51:18.385 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+15:51:18.385 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Y valido las opciones del menu
+15:51:18.385 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Timed out after 20 seconds. List elements not visible
+]]></system-out>
+  <system-err><![CDATA[may. 10, 2021 3:50:34 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17475
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 10, 2021 3:50:39 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+may. 10, 2021 3:50:45 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 38088
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 10, 2021 3:50:48 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+may. 10, 2021 3:50:52 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32238
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 10, 2021 3:50:55 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
